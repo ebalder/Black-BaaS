@@ -1,0 +1,2 @@
+docker run --volumes-from=DATA -d -p localhost:8529:8529 arangodb
+
