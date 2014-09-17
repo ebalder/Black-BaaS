@@ -1,0 +1,8 @@
+{
+    "name": "my_app",
+    "version": "0.0.1",
+    "author": "me and myself",
+    "controllers": {
+        "/": "app.js"
+    }
+}
