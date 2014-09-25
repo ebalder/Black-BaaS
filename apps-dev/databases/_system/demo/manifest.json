@@ -2,6 +2,7 @@
     "name": "my_app",
     "version": "0.0.1",
     "author": "me and myself",
+    "rootElement": true,
     "controllers": {
         "/": "app.js"
     }
