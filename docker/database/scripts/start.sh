@@ -24,6 +24,13 @@ if test "$development" = "1";  then
   D2="/apps-dev"
 fi
 
+# create data, apps and log directory
+mkdir /data /apps /apps-dev /logs
+mkdir /data/journals
+touch /logs/arangodb.log
+sudo chown -R arangodb:arangodb /data /apps /apps-dev /logs
+chmod -R 777 /logs /data
+
 # start server
 exec /usr/sbin/arangod \
 	--uid arangodb \

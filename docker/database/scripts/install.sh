@@ -12,12 +12,13 @@ if test -d /install; then
 fi
 
 # install from local source
+
 if test "$local" = "yes";  then
 
   echo " ---> Using local ubuntu packages"
   apt-key add - < /install/Release.key
   dpkg -i /install/libicu52_52.1-3_amd64.deb
-  dpkg -i /install/arangodb_2.2.2_amd64.deb
+  dpkg -i /install/arangodb_2.2.6_amd64.deb
 
 # normal install
 else
@@ -48,8 +49,3 @@ else
 
 fi
 
-# create data, apps and log directory
-mkdir /data /apps /apps-dev /logs
-touch /logs/arangodb.log
-
-chown arangodb:arangodb /data /apps /apps-dev /logs /logs/arangodb.log
