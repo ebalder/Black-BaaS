@@ -1,25 +1,25 @@
 {
-    "name": "Black-BaaS",
-    "version": "0.0.1",
-    "homepage": "https://github.com/lexas/black-baas",
-    "author": "Elsa Balderrama <mail@elsabalderrama.com>",
-    "description": "Open BaaS for easy web app deployment",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lexas/black-baas"
-    },
-    "bin": "server.js",
-    "main": "./server",
-    "dependencies": {
-        "body-parser": "*",
-        "debug": "*",
-        "express": "4.x",
-        "promised-jugglingdb": "*",
-        "jugglingdb-arango": "*",
-        "serve-static": "*"
-    },
-    "devDependencies": {
-        "nodemon": "*"
-    },
-    "license": "MIT"
+"name": "Black-BaaS",
+"version": "0.0.1",
+"homepage": "https://github.com/lexas/black-baas",
+"author": "Elsa Balderrama <mail@elsabalderrama.com>",
+"description": "Open BaaS for easy web app deployment",
+"repository": {
+"type": "git",
+"url": "https://github.com/lexas/black-baas"
+},
+"bin": "server.js",
+"main": "./server",
+"dependencies": {
+"body-parser": "*",
+"debug": "*",
+"express": "4.x",
+"promised-jugglingdb": "*",
+"jugglingdb-arango": "*",
+"serve-static": "*"
+},
+"devDependencies": {
+"nodemon": "*"
+},
+"license": "MIT"
 }

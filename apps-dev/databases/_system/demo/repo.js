@@ -18,6 +18,8 @@ var Block = exports.Block = Foxx.Model.extend({
     }
 });
 
-var blocks = exports.blocks = new Foxx.Repository(applicationContext.collection("blocks"), {
-	model: Block
+var blocks = exports.blocks = new Foxx.Repository(
+	applicationContext.collection("blocks"), 
+	{
+		model: Block
 });
