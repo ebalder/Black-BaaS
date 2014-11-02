@@ -23,6 +23,8 @@
     ],
     "dependencies": {
         "backbone": "https://raw.githubusercontent.com/jashkenas/backbone/master/backbone.js",
-        "stickit": "https://raw.githubusercontent.com/NYTimes/backbone.stickit/master/backbone.stickit.js"
+        "stickit": "https://raw.githubusercontent.com/NYTimes/backbone.stickit/master/backbone.stickit.js",
+        "require": "http://requirejs.org/docs/release/2.1.15/comments/require.js",
+        "jquery": "http://code.jquery.com/jquery-2.1.1.js"
     }
 }
