@@ -1,28 +1,28 @@
 {
-  "name": "Black BaaS client",
-  "version": "0.0.0",
-  "homepage": "https://github.com/Lexas/Black-BaaS",
-  "authors": [
-    "lexas <dislexas@gmail.com>"
-  ],
-  "description": "Frontend to interact with the Black BaaS API",
-  "keywords": [
-    "database",
-    "api",
-    "baas",
-    "backend"
-  ],
-  "license": "GPLv4",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "backbone": "https://raw.githubusercontent.com/jashkenas/backbone/master/backbone.js",
-    "stickit": "https://raw.githubusercontent.com/NYTimes/backbone.stickit/master/backbone.stickit.js"
-  }
+    "name": "Black BaaS client",
+    "version": "0.0.0",
+    "homepage": "https://github.com/Lexas/Black-BaaS",
+    "authors": [
+        "lexas <dislexas@gmail.com>"
+    ],
+    "description": "Frontend to interact with the Black BaaS API",
+    "keywords": [
+        "database",
+        "api",
+        "baas",
+        "backend"
+    ],
+    "license": "GPLv4",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "backbone": "https://raw.githubusercontent.com/jashkenas/backbone/master/backbone.js",
+        "stickit": "https://raw.githubusercontent.com/NYTimes/backbone.stickit/master/backbone.stickit.js"
+    }
 }
